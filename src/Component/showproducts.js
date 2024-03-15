@@ -7,7 +7,7 @@ const ProductList = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch('http://localhost:8080/getAllProducts',{
+        const response = await fetch('https://rahulassign.azurewebsites.net/getAllProducts',{
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',

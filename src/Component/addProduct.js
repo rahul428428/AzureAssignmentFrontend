@@ -20,7 +20,7 @@ const AddProductForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:8080/addProduct', {
+      const response = await fetch('https://rahulassign.azurewebsites.net/addProduct', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
