@@ -28,6 +28,13 @@
   color: #61dafb;
 }
 
+#addproduct{
+  margin-top:5%;
+  text-align: center;
+  line-height: 40px;
+  font-size: larger;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
